@@ -213,3 +213,43 @@ h1 {
   color: var(--color-text-secondary);
   line-height: 1.6;
 }
+
+/* How it works section */
+
+.how-it-works {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.step {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.step-number {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1.5rem auto;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.step h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+
+.step p {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
