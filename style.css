@@ -116,7 +116,7 @@ h1 {
   color: var(--color-text-secondary);
   margin-bottom: var(--spacing-xl);
 }
-.mockup {
+.hero-image img {
   width: 500px;
   height: 350px;
   background: white;
@@ -280,6 +280,7 @@ h1 {
   font-weight: 500;
 }
 
+/* CTA style */
 .cta {
   padding: 6rem 0;
   background: linear-gradient(135deg, var(--color-primary), #3b82f6);
@@ -303,4 +304,24 @@ h1 {
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
+}
+
+/* Footer */
+.footer {
+  padding: 3rem 0;
+  background: #0f1728;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.footer h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.footer span {
+  display: block;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
 }
