@@ -253,3 +253,29 @@ h1 {
   color: var(--color-text-secondary);
   line-height: 1.6;
 }
+
+/* Stats section */
+
+.stats {
+  padding: 6rem 0;
+  background: #f1f5f9;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.stat-item h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+.stat-item p {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
