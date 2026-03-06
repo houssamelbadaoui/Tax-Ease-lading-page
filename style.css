@@ -270,25 +270,29 @@ h3 {
 /* Stats section */
 
 .stats {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background: #f1f5f9;
-  text-align: center;
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  margin-top: 4rem;
+  gap: 2rem;
+  text-align: center;
 }
 
+.stat-item {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+}
 .stat-item h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--color-primary);
   margin-bottom: 0.5rem;
 }
 .stat-item p {
+  font-size: 0.95rem;
   color: var(--color-text-secondary);
   font-weight: 500;
 }
