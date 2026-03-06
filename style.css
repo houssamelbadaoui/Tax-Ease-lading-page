@@ -351,12 +351,38 @@ h3 {
 /* Desktop style */
 @media (min-width: 768px) {
   .nav-links {
-    display: block;
-  }
-  .btn-primary {
-    display: inline-block;
+    display: flex;
+    gap: 2rem;
   }
   .menu-toggle {
     display: none;
+  }
+
+  /* hero */
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+  }
+  /*LOGOS*/
+  .trusted-logos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* feature section */
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* steps section*/
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Stats section*/
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
