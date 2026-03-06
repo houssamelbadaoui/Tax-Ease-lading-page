@@ -20,7 +20,7 @@
         <div class="logo">Tax Ease</div>
 
         <nav class="nav-links">
-          <a href="#">Feautures</a>
+          <a href="#">Features</a>
           <a href="#">How it works</a>
           <a href="#">Pricing</a>
           <a href="#">Contact</a>
@@ -211,5 +211,15 @@
         <span>© 2026 Tax Ease. All rights reserved.</span>
       </div>
     </footer>
+
+    <!--JavaScript for menu toggle-->
+    <script>
+      const toggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".nav-links");
+
+      toggle.addEventListener("click", () => {
+        nav.classList.toggle("nav-open");
+      });
+    </script>
   </body>
 </html>
