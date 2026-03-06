@@ -228,39 +228,41 @@ h3 {
 /* How it works section */
 
 .how-it-works {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background: #f8fafc;
 }
 
 .steps {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 2rem;
 }
 .step {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: flex-start;
 }
 .step-number {
-  width: 48px;
-  height: 48px;
-  margin: 0 auto 1.5rem auto;
+  width: 2.5rem;
+  height: 2.5rem;
+
   background: var(--color-primary);
   color: white;
   border-radius: 50%;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   font-weight: 600;
   flex-shrink: 0;
 }
 .step h3 {
-  font-size: 1.125rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
 .step p {
+  font-size: 0.95rem;
   color: var(--color-text-secondary);
   line-height: 1.6;
 }
