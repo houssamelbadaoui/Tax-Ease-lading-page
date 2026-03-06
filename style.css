@@ -352,6 +352,7 @@ h3 {
 @media (min-width: 768px) {
   .nav-links {
     display: flex;
+    align-items: center;
     gap: 2rem;
   }
   .menu-toggle {
