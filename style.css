@@ -323,6 +323,45 @@ h3 {
   font-weight: 500;
 }
 
+/* testimonial style */
+.testimonials {
+  padding: 4rem o;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 2rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.testimonials-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.testimonials-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonials-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
 /* CTA style */
 .cta {
   padding: 4rem 0;
@@ -413,6 +452,10 @@ h3 {
 
   /* Stats section*/
   .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonials-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
